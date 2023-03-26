@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    margin: 0;font-family: 'Jost', sans-serif;
+    /* z-index: auto; */
+   
+   
+}
+header{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(13, 13, 13, 0.612);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    /* background-image: url("fog.jpg"); */
+}
+.main-cont{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgba(24, 24, 24, 0.836);
+    height: 200px;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.792);
+    
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: black;
+    color: white;
+    background-image: url("fog.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#inputFahrenheit{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    padding: 0px 20px;
+    background-color: rgb(251, 251, 251);
+    color: rgb(5, 5, 5);
+    border: none;
+}
+.res{
+    font-size: larger;
+    color: rgb(255, 254, 254);
+    margin: 12px;
+}
+.get{
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    margin-right: 12px;
+    
+}
